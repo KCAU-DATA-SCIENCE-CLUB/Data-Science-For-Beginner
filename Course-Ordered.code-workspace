@@ -1,0 +1,16 @@
+﻿{
+  "folders": [
+    { "path": "foundations" },
+    { "path": "working-with-data" },
+    { "path": "data-analysis" },
+    { "path": "advanced-analysis" },
+    { "path": "intro-to-ml" },
+    { "path": "ml-in-practice" },
+    { "path": "communicating-insights" },
+    { "path": "projects" },
+    { "path": "assets" }
+  ],
+  "settings": {
+    "explorer.compactFolders": false
+  }
+}
