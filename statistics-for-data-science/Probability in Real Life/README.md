@@ -1,4 +1,3 @@
-
 # 📘 Lesson 2: Probability in Real Life
 
 Probability helps us **measure uncertainty** and make **better decisions**. In data science, it’s the foundation of predictions — from recommending movies to detecting fraud.
@@ -55,6 +54,54 @@ P(\text{Even}) = \frac{3}{6} = 0.5
 
 ---
 
+## 🐍 Python Examples
+
+### 1. Coin Toss Simulation
+
+```python
+import random
+
+# Simulate 10 coin tosses
+tosses = [random.choice(["Heads", "Tails"]) for _ in range(10)]
+print("Toss results:", tosses)
+```
+
+### 2. Estimate Probability of Heads
+
+```python
+import random
+
+# Simulate 1000 tosses
+tosses = [random.choice(["H", "T"]) for _ in range(1000)]
+prob_heads = tosses.count("H") / len(tosses)
+
+print("Estimated Probability of Heads:", prob_heads)
+```
+
+### 3. Rolling a Dice
+
+```python
+import random
+
+# Roll a dice 10 times
+dice_rolls = [random.randint(1, 6) for _ in range(10)]
+print("Dice rolls:", dice_rolls)
+```
+
+### 4. Using NumPy for Large Simulations
+
+```python
+import numpy as np
+
+# Simulate 10,000 coin tosses
+tosses = np.random.choice(["H", "T"], size=10000)
+prob_heads = np.mean(tosses == "H")
+
+print("Simulated Probability of Heads:", prob_heads)
+```
+
+---
+
 ## 📊 Visual Example
 
 **Coin Toss Tree Diagram**
@@ -85,6 +132,11 @@ Start
 
 * Probability quantifies uncertainty.
 * Real-life applications: recommender systems, spam detection, fraud detection.
+* Python can simulate probability experiments easily.
 * Conditional probability is crucial for understanding **dependencies**.
 
 ✅ Next, we’ll study **Distributions & Sampling** → the shapes probability can take in real-world data.
+
+
+
+
