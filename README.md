@@ -81,6 +81,3 @@ This project is open-source under the **MIT License**.
 
 🔥 **Ready?** Let’s turn data into stories.
 
----
-
-Do you want me to also add a **visual roadmap graphic (timeline style)** for the README so it feels even more like Tifo Football’s **storytelling aesthetic**?
