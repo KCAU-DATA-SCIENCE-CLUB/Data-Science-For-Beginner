@@ -12,6 +12,12 @@ A **distribution** shows how values are spread across possible outcomes.
 * Dice roll → Equal probability for 1 to 6 (uniform).
 * Customer purchases → Few spend a lot, most spend small (skewed).
 
+📌 **Visual Aid:**
+
+* Bell Curve diagram (Normal Distribution).
+* Flat Bar for Uniform Distribution.
+* Right-skewed curve for Income.
+
 ---
 
 ## 🎨 Common Distributions
@@ -22,6 +28,7 @@ Every outcome has the same chance.
 
 * Example: Rolling a fair dice.
 * Graph: Flat line across values.
+  📌 **Visual Aid:** Bar plot with equal heights.
 
 ### 2. Normal Distribution (Bell Curve)
 
@@ -29,12 +36,14 @@ Data clusters around the mean.
 
 * Example: Heights, test scores.
 * Symmetrical, with most values near the center.
+  📌 **Visual Aid:** Bell curve with mean in center.
 
 ### 3. Skewed Distribution
 
 One side has more values than the other.
 
 * Example: Income → most people earn average, a few earn very high.
+  📌 **Visual Aid:** Right-skewed histogram.
 
 ---
 
@@ -49,6 +58,8 @@ Why sample?
 
 * Saves time & cost.
 * Helps estimate population behavior.
+
+📌 **Visual Aid:** Diagram of a big circle (population) and a small selected circle inside it (sample).
 
 ---
 
@@ -108,6 +119,7 @@ print("Population mean:", population.mean())
 * **Distributions** describe how data is spread.
 * Normal, uniform, and skewed are common types.
 * **Sampling** lets us estimate population characteristics efficiently.
-* Python + visualizations help make these patterns clear.
+* Visuals (curves, histograms, diagrams) help make patterns clear.
+* Python brings these patterns to life with simulations.
 
 ✅ Next: **Lesson 4: Hypothesis Testing** → Making data-driven decisions.
